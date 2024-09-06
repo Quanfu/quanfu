@@ -24,6 +24,7 @@ export default defineConfig({
       // },
 
       // ...
+      { text: 'About', link: '/about' }
     ],
 
     sidebar: [
@@ -33,7 +34,9 @@ export default defineConfig({
           { text: 'Example', link: '/example' },
           // ...
         ],
+        
       },
+      { text: 'About', link: '/about' }
     ],
   },
 });
